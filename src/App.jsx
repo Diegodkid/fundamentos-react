@@ -1,9 +1,14 @@
+import { Post } from "./Post"
+
 
 function App() {
-
   return (
     <div>
-      <h1>Hello</h1>
+      <Post />
+      <Post />
+      <Post />
+      <Post />
+      <Post />
     </div>
   )
 }
