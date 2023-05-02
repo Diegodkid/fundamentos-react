@@ -101,9 +101,15 @@
   transition: all .2s ease;
 }
 
-.commentForm button:hover {
+.commentForm button:not(:disabled):hover {
   background: var(--green-300);
 }
+
+.commentForm button:disabled {
+  background: #64748b;
+  cursor: not-allowed;
+}
+
 
 .commentList {
   margin-top: 2rem;
